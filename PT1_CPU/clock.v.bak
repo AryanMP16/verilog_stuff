@@ -1,0 +1,6 @@
+module clock (output signal);
+	initial begin
+		assign signal = 0;
+		forever #5 signal = ~signal;
+	end
+endmodule : clock

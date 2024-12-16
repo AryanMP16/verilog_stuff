@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vclock
+!s110 1734387580
+!i10b 1
+!s100 Uk4VS>044T:nSCIQ>>RJT0
+IjW8l4JgiP6MlFYWhAWN8@0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/aryan/Desktop/verilog_stuff/PT1_CPU
+w1734387578
+8clock.v
+Fclock.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1734387580.000000
+!s107 clock.v|
+!s90 -reportprogress|300|clock.v|
+!i113 1
+Z3 tCvgOpt 0
+vd_latch
+!s110 1734387366
+!i10b 1
+!s100 POnCO:WShM@?O[kJm75JV3
+IaBP_0V4jgVe<HdhgXRmMz3
+R0
+R1
+w1734386860
+8D_flip_flop.v
+FD_flip_flop.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1734387366.000000
+!s107 clock.v|D_flip_flop.v|
+!s90 -reportprogress|300|D_flip_flop.v|clock.v|
+!i113 1
+R3
