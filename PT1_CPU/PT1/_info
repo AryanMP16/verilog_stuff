@@ -9,31 +9,30 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vclock
-Z0 !s110 1734393543
+Z0 !s110 1734418851
 !i10b 1
 !s100 H:M6hV4G]L]1bLTGc]6e40
-IHzX`I_SfY@XlUcJKK;iD>1
+I8_5G2j=CBdnhfPXnoXh^J3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/aryan/Desktop/verilog_stuff/PT1_CPU
 Z3 w1734388236
-Z4 8C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/clock.v
-Z5 FC:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/clock.v
+Z4 8clock.v
+Z5 Fclock.v
 L0 1
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1734393543.000000
-Z8 !s107 C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/clock.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/clock.v|
+Z7 !s108 1734418851.000000
+Z8 !s107 register_testbench.v|register.v|d_latch_testbench.v|clock.v|D_flip_flop.v|4_16_Decoder.v|
+Z9 !s90 -reportprogress|300|4_16_Decoder.v|D_flip_flop.v|clock.v|d_latch_testbench.v|register.v|register_testbench.v|
 !i113 1
-Z10 o-work work
-Z11 tCvgOpt 0
+Z10 tCvgOpt 0
 vclock_test
 R0
 !i10b 1
 !s100 DBbbVndhL4EhN^PolSRLX3
-I;=iSSi3^KG>V<iJ;J?<;B3
+IEF3LdmJTTl?5a=2E;Sc9k2
 R1
 R2
 R3
@@ -49,88 +48,143 @@ R8
 R9
 !i113 1
 R10
-R11
 vd_flip_flop
 R0
 !i10b 1
 !s100 ]naTDgJZMcjmMn_1N_E572
-IgBmRI[50Lm2aG5jVIE`N`0
+IAOTLl1T=`b>?H6^b6clJA3
 R1
 R2
-Z12 w1734393450
-Z13 8C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v
-Z14 FC:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v
+Z11 w1734393450
+Z12 8D_flip_flop.v
+Z13 FD_flip_flop.v
 L0 12
 R6
 r1
 !s85 0
 31
 R7
-Z15 !s107 C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v|
-Z16 !s90 -reportprogress|300|-work|PT1|-stats=none|C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v|
+R8
+R9
 !i113 1
-Z17 o-work PT1
-R11
+R10
 vd_flip_flop_testbench
 R0
 !i10b 1
 !s100 oGH`NM[cfN_lJW:1D7SPc0
-IbdHVYVjS]a:icnT2CN[W[2
+ImDZZNi923fKnhO`CJFGIA2
 R1
 R2
+R11
 R12
 R13
-R14
 L0 20
 R6
 r1
 !s85 0
 31
 R7
-R15
-R16
+R8
+R9
 !i113 1
-R17
-R11
+R10
 vd_latch
 R0
 !i10b 1
 !s100 POnCO:WShM@?O[kJm75JV3
-IOZDfmATgi6<02XT]onYgz3
+IaBP_0V4jgVe<HdhgXRmMz3
 R1
 R2
+R11
 R12
 R13
-R14
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-R15
-R16
+R8
+R9
 !i113 1
-R17
-R11
+R10
 vd_latch_testbench
 R0
 !i10b 1
 !s100 ^TgDAT1L36b17STi<NC;i3
-IcGBYH4k_Rd^_[ffAo;;;c1
+I10]oZf5;4=KTE7KV1H[>S3
 R1
 R2
-w1734390550
-8C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v
-FC:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v
+w1734417161
+8d_latch_testbench.v
+Fd_latch_testbench.v
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v|
+R8
+R9
 !i113 1
 R10
-R11
+vdecoder_4_16
+R0
+!i10b 1
+!s100 >bI`=Fc8?5DZV@We]51S03
+IKKO?0Q@lZ6CO;haae7IAj2
+R1
+R2
+w1734396927
+84_16_Decoder.v
+F4_16_Decoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregister_16bit
+R0
+!i10b 1
+!s100 8WH@RZ<2k``_DdE@?zPGN1
+Il[n]K;DGKF`Sd772?OQK13
+R1
+R2
+w1734415426
+8register.v
+Fregister.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregister_testbench
+R0
+!i10b 1
+!s100 dn323JG21LjFNdX4bffl;0
+IFLiz7oW?LLWQ3EBQS^@`[3
+R1
+R2
+w1734418849
+8register_testbench.v
+Fregister_testbench.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

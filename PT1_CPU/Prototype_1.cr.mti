@@ -6,11 +6,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	clock_test
 
-} {} {}} C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v {1 {vlog -work work -stats=none C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/d_latch_testbench.v
+} {} {}} C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v {1 {vlog -work PT1 -stats=none C:/Users/aryan/Desktop/verilog_stuff/PT1_CPU/D_flip_flop.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module d_latch_testbench
+-- Compiling module d_latch
+-- Compiling module d_flip_flop
+-- Compiling module d_flip_flop_testbench
 
 Top level modules:
-	d_latch_testbench
+	d_flip_flop_testbench
 
 } {} {}}

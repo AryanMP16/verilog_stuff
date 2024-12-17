@@ -1,0 +1,1 @@
+module register_file (input mode/*if 1, RT; otherwise read data*/, input [4:0] read_address
