@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vclock
-Z0 !s110 1734418851
+Z0 !s110 1734485513
 !i10b 1
 !s100 H:M6hV4G]L]1bLTGc]6e40
 I8_5G2j=CBdnhfPXnoXh^J3
@@ -23,9 +23,9 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1734418851.000000
-Z8 !s107 register_testbench.v|register.v|d_latch_testbench.v|clock.v|D_flip_flop.v|4_16_Decoder.v|
-Z9 !s90 -reportprogress|300|4_16_Decoder.v|D_flip_flop.v|clock.v|d_latch_testbench.v|register.v|register_testbench.v|
+Z7 !s108 1734485513.000000
+Z8 !s107 register_testbench.v|register_file.v|register.v|d_latch_testbench.v|clock.v|D_flip_flop.v|4_16_MUX_16_wide_bus.v|4_16_MUX testbench.v|4_16_Decoder.v|
+Z9 !s90 -reportprogress|300|4_16_Decoder.v|4_16_MUX testbench.v|4_16_MUX_16_wide_bus.v|D_flip_flop.v|clock.v|d_latch_testbench.v|register.v|register_file.v|register_testbench.v|
 !i113 1
 Z10 tCvgOpt 0
 vclock_test
@@ -148,6 +148,48 @@ R8
 R9
 !i113 1
 R10
+vMUX_4_to_16_16width
+R0
+!i10b 1
+!s100 mZ_z7^Fd]iaPgJYQlQ@<<2
+IYH6XPVS3WIRC17O[[SzLK2
+R1
+R2
+w1734482923
+84_16_MUX_16_wide_bus.v
+F4_16_MUX_16_wide_bus.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@u@x_4_to_16_16width
+vMUX_testbench
+R0
+!i10b 1
+!s100 4QNdn8e<1>XaSLYmZFIML2
+I>52KGD@K^A0CB3fWEXnfb2
+R1
+R2
+w1734485505
+84_16_MUX testbench.v
+F4_16_MUX testbench.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@m@u@x_testbench
 vregister_16bit
 R0
 !i10b 1
