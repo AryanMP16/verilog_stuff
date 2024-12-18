@@ -1,6 +1,0 @@
-function assert(input signal, input desired_value);
-	if (signal != desired_value) begin
-		$display("ASSERT FAILED: %b != %b", signal, desired_value);
-		$stop;
-	end
-endfunction
